@@ -1,10 +1,15 @@
 # PortableBurpsuite
 
+## 下载链接
+
+[https://mega.nz/folder/Je8UXAhC#ft-xK84MQOfsQ1O3CFVbug/file/UHtEwL4A](https://mega.nz/folder/Je8UXAhC#ft-xK84MQOfsQ1O3CFVbug/file/UHtEwL4A)
+
 ## 注意事项
 
 - 仅支持 Windows，并且目前仅在 Windows 10 Build 19045 上测试过；
 - 在这个包的基础上进一步自定义也许是很困难的，因为我并未打算向使用者提供进一步的自定义功能；
 - 如果有任何需求可在此处提issue，由我来实现。
+- **插件并未经过安全审计，请在不包含敏感信息的虚拟机使用**
 
 ## 文件结构
 
@@ -22,7 +27,38 @@ keygen.cmd         # 用于单独启动密钥生成工具
 start.ps1          # 部署脚本，由vbs调用来隐藏console
 start.vbs          # 启动脚本（自动部署）
 ```
+## 我做了什么优化？（程序帮你做了什么）
 
-## 下载链接
+默认使用了 Scope，后面如果有需要的话会做这部分配置的更新机制。
 
-[https://mega.nz/folder/Je8UXAhC#ft-xK84MQOfsQ1O3CFVbug/file/UHtEwL4A](https://mega.nz/folder/Je8UXAhC#ft-xK84MQOfsQ1O3CFVbug/file/UHtEwL4A)
+![图片](https://github.com/peter5he1by/PortableBurpsuite/assets/86906331/c0a41338-6e7b-4b89-84eb-9f4ed9ce180e)
+
+配置好插件依赖。
+
+![图片](https://github.com/peter5he1by/PortableBurpsuite/assets/86906331/e540b0b1-9f39-409d-8d61-bb88bc78bbc7)
+
+使用 Intruder 的 PayloadPosition 预置一些字典，这个也可以提供更新机制。
+
+![图片](https://github.com/peter5he1by/PortableBurpsuite/assets/86906331/215388a8-b7ef-45ad-ac19-6f896f615851)
+
+Repeater 可以使用 Ctrl+S 发包。
+
+预先载入了几个常用的比较“老实的”插件。
+
+![图片](https://github.com/peter5he1by/PortableBurpsuite/assets/86906331/12a1d3ec-fbcb-429c-839d-4181b1598fc9)
+
+收集了一些其它的插件，按需勾选使用。
+
+![图片](https://github.com/peter5he1by/PortableBurpsuite/assets/86906331/fa2c2b80-4e5b-417e-ad7d-4db032d4427c)
+
+给 [HaE](https://github.com/gh0stkey/HaE) 提了 issue，他们已经让 HaE 支持便携的配置文件了，不用担心内网环境需要下载 HaE 的在线规则了。
+
+![图片](https://github.com/peter5he1by/PortableBurpsuite/assets/86906331/e8ed5bcb-b4a6-4ab4-94dc-4c5ddb65c6a6)
+
+OneScan 对便携配置文件的支持还有些问题，不过目前也已经能内置一些字典了，字典来自@三娃子，在f0ng的[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)交流群可以抓到他。
+
+![图片](https://github.com/peter5he1by/PortableBurpsuite/assets/86906331/5d560569-6284-4420-bbf4-3fd142e02ffb)
+
+## 鸣谢
+
+- [] TODO
