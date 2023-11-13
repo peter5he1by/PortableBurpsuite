@@ -2,6 +2,8 @@
 
 这是本人长期维护自用的便携式 BurpSuite 武器库，目前可能并不适合所有人，遇到问题请多多提 issue，本人持 open 态度。
 
+如果这个程序对你有帮助，请点个star让我知道，这将是我继续维护的动力。
+
 ## 下载链接
 
 [https://mega.nz/folder/Je8UXAhC#ft-xK84MQOfsQ1O3CFVbug/file/UHtEwL4A](https://mega.nz/folder/Je8UXAhC#ft-xK84MQOfsQ1O3CFVbug/file/UHtEwL4A)
