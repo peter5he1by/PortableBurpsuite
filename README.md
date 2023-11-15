@@ -1,6 +1,6 @@
 # PortableBurpsuite
 
-这是本人长期维护自用的便携式 BurpSuite 武器库，目前可能并不适合所有人，遇到问题请多多提 issue，本人持 open 态度。
+这是本人长期维护自用的便携式 BurpSuite 武器库，目前可能并不适合所有人，遇到问题请多多提 issue。
 
 如果这个程序对你有帮助，请点个star让我知道，这将是我继续维护的动力。
 
@@ -27,13 +27,10 @@
 jar                # BurpSuite程序包
 jdk-18.0.2.1       # jdk
 burp.project.json  # BurpSuite project settings，改动此文件不影响程序的便携性
-burpsuite.ico      # 图标
-init.exe           # 配置部署工具，没加壳
-keygen.cmd         # 用于单独启动密钥生成工具
-start.ps1          # 部署脚本，由vbs调用来隐藏console
+burpsuite.ico      # 图标（嗯没什么用）
 start.vbs          # *启动脚本（自动部署）
 ```
-## 我做了什么优化？（程序帮你做了什么）
+## 我做了什么优化？（程序帮你做了什么？）
 
 默认使用了 Scope，后面如果有需要的话会做这部分配置的更新机制。
 
@@ -64,6 +61,10 @@ Repeater 可以使用 Ctrl+S 发包。
 OneScan 对便携配置文件的支持还有些问题，不过目前也已经能内置一些字典了，字典来自@三娃子，在f0ng的[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)交流群可以抓到他。
 
 ![图片](https://github.com/peter5he1by/PortableBurpsuite/assets/86906331/5d560569-6284-4420-bbf4-3fd142e02ffb)
+
+## 为这个项目做点什么？
+
+- 什么都可以
 
 ## 鸣谢
 
