@@ -62,6 +62,11 @@ OneScan 对便携配置文件的支持还有些问题，不过目前也已经能
 
 ![图片](https://github.com/peter5he1by/PortableBurpsuite/assets/86906331/5d560569-6284-4420-bbf4-3fd142e02ffb)
 
+加入我能找到的所有开源的BChecks
+
+![图片](https://github.com/peter5he1by/PortableBurpsuite/assets/86906331/fe9c24d4-5cb4-402b-a23c-76108bc1bd6c)
+
+
 ## 为这个项目做点什么？
 
 - 什么都可以
@@ -69,3 +74,10 @@ OneScan 对便携配置文件的支持还有些问题，不过目前也已经能
 ## 鸣谢
 
 - [ ] TODO
+
+## ChangeLog
+
+##### 2023-11-15
+
+- 将PortSwigger的BChecks仓库中的所有bchecks内置到包
+- 改动了目录结构，减少干扰
