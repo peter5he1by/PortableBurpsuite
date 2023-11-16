@@ -8,6 +8,8 @@
 
 [https://mega.nz/folder/Je8UXAhC#ft-xK84MQOfsQ1O3CFVbug/file/UHtEwL4A](https://mega.nz/folder/Je8UXAhC#ft-xK84MQOfsQ1O3CFVbug/file/UHtEwL4A)
 
+密码：peterzhang
+
 ## 注意事项
 
 **请使用 `start.vbs` 启动，不要直接运行其它任何脚本。**
