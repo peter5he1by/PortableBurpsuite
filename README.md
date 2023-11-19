@@ -31,6 +31,7 @@
 .plugin-libs       # 插件使用的库路径
 .plugins           # 插件
 jar                # BurpSuite程序包
+javaagent          # 存放启动BurpSuite时使用的javaagent
 jdk-18.0.2.1       # jdk
 burp.project.json  # BurpSuite project settings，改动此文件不影响程序的便携性
 burpsuite.ico      # 图标（嗯没什么用）
