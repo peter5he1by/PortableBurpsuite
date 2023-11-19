@@ -84,6 +84,10 @@ OneScan 对便携配置文件的支持还有些问题，不过目前也已经能
 
 ## ChangeLog
 
+##### 2023-11-20
+
+- 支持加载自定义的javaagent
+
 ##### 2023-11-15
 
 - 将PortSwigger的BChecks仓库中的所有bchecks内置到包
