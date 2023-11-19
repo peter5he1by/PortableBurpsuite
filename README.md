@@ -11,7 +11,7 @@
 |源|链接|
 | --- | --- |
 |mega.nz|[https://mega.nz/folder/Je8UXAhC#ft-xK84MQOfsQ1O3CFVbug/file/UHtEwL4A](https://mega.nz/folder/Je8UXAhC#ft-xK84MQOfsQ1O3CFVbug/file/UHtEwL4A)|
-|百度网盘|[https://pan.baidu.com/s/1r8ai6fjr6jfiPrOQyGx7rw?pwd=z5i1](https://pan.baidu.com/s/1r8ai6fjr6jfiPrOQyGx7rw?pwd=z5i1)|
+|百度网盘|[https://pan.baidu.com/s/1JJ5YYbhTa66x6u-6lPKb2w?pwd=4cdq](https://pan.baidu.com/s/1JJ5YYbhTa66x6u-6lPKb2w?pwd=4cdq)|
 
 
 ## 注意事项
