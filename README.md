@@ -6,11 +6,12 @@
 
 ## 下载链接
 
-[https://mega.nz/folder/Je8UXAhC#ft-xK84MQOfsQ1O3CFVbug/file/UHtEwL4A](https://mega.nz/folder/Je8UXAhC#ft-xK84MQOfsQ1O3CFVbug/file/UHtEwL4A)
-
-[https://pan.baidu.com/s/1r8ai6fjr6jfiPrOQyGx7rw?pwd=z5i1](https://pan.baidu.com/s/1r8ai6fjr6jfiPrOQyGx7rw?pwd=z5i1)
-
 密码：peterzhang
+
+|源|链接|
+|mega.nz|[https://mega.nz/folder/Je8UXAhC#ft-xK84MQOfsQ1O3CFVbug/file/UHtEwL4A](https://mega.nz/folder/Je8UXAhC#ft-xK84MQOfsQ1O3CFVbug/file/UHtEwL4A)|
+|百度网盘|[https://pan.baidu.com/s/1r8ai6fjr6jfiPrOQyGx7rw?pwd=z5i1](https://pan.baidu.com/s/1r8ai6fjr6jfiPrOQyGx7rw?pwd=z5i1)|
+
 
 ## 注意事项
 
