@@ -6,14 +6,14 @@
 
 ## 下载链接
 
+[请自行下载burpsuite程序的jar包，放置与jar目录下。](https://portswigger.net/burp/releases?requestededition=professional&requestedplatform=Jar)
+
 密码：peterzhang
 
 |源|链接|
 | --- | --- |
 |mega.nz|[https://mega.nz/folder/Je8UXAhC#ft-xK84MQOfsQ1O3CFVbug/file/UHtEwL4A](https://mega.nz/folder/Je8UXAhC#ft-xK84MQOfsQ1O3CFVbug/file/UHtEwL4A)|
 |百度网盘|[https://pan.baidu.com/s/1JJ5YYbhTa66x6u-6lPKb2w?pwd=4cdq](https://pan.baidu.com/s/1JJ5YYbhTa66x6u-6lPKb2w?pwd=4cdq)|
-
-BurpSuite程序包下载链接：[https://portswigger.net/burp/releases?requestededition=professional&requestedplatform=Jar](https://portswigger.net/burp/releases?requestededition=professional&requestedplatform=Jar)
 
 ## 注意事项
 
@@ -27,15 +27,17 @@ BurpSuite程序包下载链接：[https://portswigger.net/burp/releases?requeste
 ## 文件结构
 
 ```powershell
+.bchecks           # BChecks
 .dont_touch        # init.exe 使用的配置模板
 .payloads          # Intruder字典路径
 .plugin-libs       # 插件使用的库路径
 .plugins           # 插件
 jar                # BurpSuite程序包
-javaagent          # 存放启动BurpSuite时使用的javaagent
+javaagent          # 启动BurpSuite时使用的javaagent
 jdk-18.0.2.1       # jdk
 burp.project.json  # BurpSuite project settings，改动此文件不影响程序的便携性
 burpsuite.ico      # 图标（嗯没什么用）
+java.exe.args      # 启动burpsuite时java.exe的参数（注意，这不是burpsuite程序的参数）
 start.vbs          # *启动脚本（自动部署）
 ```
 ## 我做了什么优化？（程序帮你做了什么？）
@@ -84,6 +86,11 @@ OneScan 对便携配置文件的支持还有些问题，不过目前也已经能
 - [ ] TODO
 
 ## ChangeLog
+
+##### 2023-11-21 今天我生日哦
+
+- 添加/更新了一些插件
+- 支持向启动burpsuite的java.exe添加命令行参数
 
 ##### 2023-11-20
 
