@@ -6,7 +6,7 @@
 
 ## 下载链接
 
-[请自行下载burpsuite程序的jar包，放置与jar目录下。](https://portswigger.net/burp/releases?requestededition=professional&requestedplatform=Jar)
+[请自行下载burpsuite程序的jar包，放置于jar目录下。](https://portswigger.net/burp/releases?requestededition=professional&requestedplatform=Jar)
 
 密码：peterzhang
 
