@@ -2,7 +2,7 @@
 
 这是本人长期维护自用的便携式 BurpSuite 武器库，目前可能并不适合所有人，遇到问题请多多提 issue。
 
-如果这个程序对你有帮助，请点个star让我知道，这将是我继续维护的动力。
+如果这个程序对您有帮助，请点个star让我知道，这将是我继续维护的动力。
 
 ## 下载链接
 
@@ -28,19 +28,24 @@
 
 ```powershell
 .bchecks           # BChecks
-.dont_touch        # init.exe 使用的配置模板
+.configlib         # ConfigLibrary
+.dont_touch        # 其它相关的配置、脚本等
 .payloads          # Intruder字典路径
 .plugin-libs       # 插件使用的库路径
 .plugins           # 插件
 jar                # BurpSuite程序包
-javaagent          # 启动BurpSuite时使用的javaagent
-jdk-18.0.2.1       # jdk
+jdk                # jdk
 burp.project.json  # BurpSuite project settings，改动此文件不影响程序的便携性
-burpsuite.ico      # 图标（嗯没什么用）
-java.exe.args      # 启动burpsuite时java.exe的参数（注意，这不是burpsuite程序的参数）
-start.vbs          # *启动脚本（自动部署）
+jvm.args           # 启动burpsuite时jvm的参数（注意，这不是burpsuite程序的参数）
+Start.exe          # *启动脚本（自动部署）
+
+init.lock          # 初始化标记（空文件夹）
 ```
-## 我做了什么优化？（程序帮你做了什么？）
+## 部署工具帮您做了什么？
+
+生成证书保存于桌面，并导入计算机证书存储，对于使用系统证书存储的程序（如Chrome浏览器，但不包括Firefox），您不再需要手动导入证书。
+
+![图片](https://github.com/peter5he1by/PortableBurpsuite/assets/86906331/83d7ce0b-d620-46ea-b607-325345f5b516)
 
 默认使用了 Scope，后面如果有需要的话会做这部分配置的更新机制。
 
@@ -86,6 +91,13 @@ OneScan 对便携配置文件的支持还有些问题，不过目前也已经能
 - [ ] TODO
 
 ## ChangeLog
+
+##### 2023-12-23
+
+优化：
+
+- 现在启动程序将生成证书并导入系统和burp，证书将被保存到桌面以供其它用途
+- 默认最大化启动burp
 
 ##### 2023-11-27
 
