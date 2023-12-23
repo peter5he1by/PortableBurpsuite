@@ -15,7 +15,7 @@
 
 密码：peterzh4ng
 
-如果你下载 no_jre 版本（体积更小），那么你需要在工具根目录放一个名为'jre'的JDK或JRE，或是它们的快捷方式。
+如果你下载 no_jre 版本（体积更小，但也没小多少），那么你需要在工具根目录放一个名为'jre'的JDK或JRE，或是它们的快捷方式。
 
 请自行[下载burpsuite程序的jar包](https://portswigger.net/burp/releases?requestededition=professional&requestedplatform=Jar)，放置于jar目录下。
 
