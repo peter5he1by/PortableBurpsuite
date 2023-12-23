@@ -26,12 +26,11 @@
 
 ## 注意事项
 
-**请使用 `start.vbs` 启动，不要直接运行其它任何脚本。**
+**请使用 `Start.exe` 启动**
 
-- 仅支持 Windows，并且目前仅在 Windows 10 Build 19045 上测试过；
-- 在这个包的基础上进一步自定义也许是很困难的，因为我暂时不打算向使用者提供进一步的自定义功能，这比较麻烦；
-- 如果有任何需求可在此处提issue，由我来实现。
-- **插件并未经过安全审计，请在不包含敏感信息的虚拟机使用**
+- **插件并未经过安全审计，请在不包含敏感信息的虚拟机使用。**
+- 仅支持 Windows；
+- 如果有任何需求可在此处提issue；
 
 ## 文件结构
 
@@ -43,7 +42,7 @@
 .plugin-libs       # 插件使用的库路径
 .plugins           # 插件
 jar                # BurpSuite程序包
-jdk                # jdk
+jre                # jre
 burp.project.json  # BurpSuite project settings，改动此文件不影响程序的便携性
 jvm.args           # 启动burpsuite时jvm的参数（注意，这不是burpsuite程序的参数）
 Start.exe          # *启动脚本（自动部署）
