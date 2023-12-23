@@ -4,6 +4,13 @@
 
 如果这个程序对您有帮助，请点个star让我知道，这将是我继续维护的动力。
 
+## 已知BUG
+
+- 加载部分插件后，在上下文菜单项目较多时：
+  - [ ] 弹出顶级上下文菜单时会有一定延迟
+  - [x] 在Repeater或相似的上下文菜单中光标指向'Convert Selection'时，会花费较多时间弹出其子菜单。*可以在菜单项上进行一点“拖拽”动作快速引出子菜单*
+
+
 ## 下载链接
 
 [请自行下载burpsuite程序的jar包，放置于jar目录下。](https://portswigger.net/burp/releases?requestededition=professional&requestedplatform=Jar)
