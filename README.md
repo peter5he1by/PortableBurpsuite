@@ -6,16 +6,18 @@
 
 ## 已知BUG
 
-- 加载部分插件后，在上下文菜单项目较多时：
-  - [ ] 弹出顶级上下文菜单时会有一定延迟
+- [x] 加载部分插件后，在上下文菜单项目较多时：
+  - [x] 弹出顶级上下文菜单时会有一定延迟。*HackVector插件注册了过多的菜单项，现在默认关闭该插件*
   - [x] 在Repeater或相似的上下文菜单中光标指向'Convert Selection'时，会花费较多时间弹出其子菜单。*可以在菜单项上进行一点“拖拽”动作快速引出子菜单*
 
 
 ## 下载链接
 
-[请自行下载burpsuite程序的jar包，放置于jar目录下。](https://portswigger.net/burp/releases?requestededition=professional&requestedplatform=Jar)
+密码：peterzh4ng
 
-密码：peterzhang
+如果你下载 no_jre 版本（体积更小），那么你需要在工具根目录放一个名为'jre'的JDK或JRE，或是它们的快捷方式。
+
+请自行[下载burpsuite程序的jar包](https://portswigger.net/burp/releases?requestededition=professional&requestedplatform=Jar)，放置于jar目录下。
 
 |源|链接|
 | --- | --- |
@@ -104,6 +106,8 @@ OneScan 对便携配置文件的支持还有些问题，不过目前也已经能
 - 默认最大化启动burp
 - 精简JDK
 - 移除部分插件
+- 关闭了一个对Burp有很大负担的插件
+- 使用JRE而不是JDK
 
 修复：
 
