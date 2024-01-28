@@ -1,6 +1,7 @@
 # PortableBurpsuite
 
 这是本人长期维护自用的便携式 BurpSuite 武器库，目前可能并不适合所有人，遇到问题请多多提 issue。
+Here comes a cool pre-configured BurpSuite arsenal! May not everyone like it but if you encounter bugs, just let me know by pushing new issues. :)
 
 如果这个程序对您有帮助，请点个star让我知道，这将是我继续维护的动力。
 
