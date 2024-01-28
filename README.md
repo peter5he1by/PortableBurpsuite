@@ -25,16 +25,18 @@ Password: `peterzh4ng`
 
 > [Download the program package of BurpSuite](https://portswigger.net/burp/releases?requestededition=professional&requestedplatform=Jar) and put it in the `jar` directory.
 
-> Below is the release link for this project.
+> Below is the release link for this project, just use the mega link.
 
 |源|链接|
 | --- | --- |
 |mega.nz|[https://mega.nz/folder/Je8UXAhC#ft-xK84MQOfsQ1O3CFVbug/file/UHtEwL4A](https://mega.nz/folder/Je8UXAhC#ft-xK84MQOfsQ1O3CFVbug/file/UHtEwL4A)|
 |百度网盘|[https://pan.baidu.com/s/1JJ5YYbhTa66x6u-6lPKb2w?pwd=4cdq](https://pan.baidu.com/s/1JJ5YYbhTa66x6u-6lPKb2w?pwd=4cdq)|
 
-## 注意事项
+## 注意事项 Attention
 
 **请使用 `Start.exe` 启动**
+
+> Use the `Start.exe` to start.
 
 - **插件并未经过安全审计，请在不包含敏感信息的虚拟机使用。**
 - 仅支持 Windows；
