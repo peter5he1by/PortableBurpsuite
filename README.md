@@ -6,6 +6,8 @@ Here comes a cool pre-configured BurpSuite arsenal! May not everyone like it but
 
 如果这个程序对您有帮助，请点个star让我知道，这将是我继续维护的动力。
 
+If this package helps you, pls star. That would be helpful for further development.
+
 ## 已知BUG
 
 - [x] 加载部分插件后，在上下文菜单项目较多时：
