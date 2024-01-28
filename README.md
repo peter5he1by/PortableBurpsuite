@@ -6,7 +6,7 @@
 
 如果这个程序对您有帮助，请点个star让我知道，这将是我继续维护的动力。
 
-If this package helps you, pls star. That would be helpful for further development.
+> If this package helps you, pls star. That would be helpful for further development.
 
 ## 已知BUG
 
@@ -15,7 +15,7 @@ If this package helps you, pls star. That would be helpful for further developme
   - [x] 在Repeater或相似的上下文菜单中光标指向'Convert Selection'时，会花费较多时间弹出其子菜单。*可以在菜单项上进行一点“拖拽”动作快速引出子菜单*
 
 
-## 下载链接
+## 下载链接 Download
 
 Password: `peterzh4ng`
 
@@ -23,7 +23,9 @@ Password: `peterzh4ng`
 
 请自行[下载burpsuite程序的jar包](https://portswigger.net/burp/releases?requestededition=professional&requestedplatform=Jar)，放置于jar目录下。
 
-[Download the program package of BurpSuite](https://portswigger.net/burp/releases?requestededition=professional&requestedplatform=Jar) and put it in the `jar` directory.
+> [Download the program package of BurpSuite](https://portswigger.net/burp/releases?requestededition=professional&requestedplatform=Jar) and put it in the `jar` directory.
+
+> Below is the release link for this project.
 
 |源|链接|
 | --- | --- |
