@@ -19,8 +19,6 @@ Password: `peterzh4ng`
 
 请自行[下载burpsuite程序的jar包](https://portswigger.net/burp/releases?requestededition=professional&requestedplatform=Jar)，放置于jar目录下。
 
-> [Download the program package of BurpSuite](https://portswigger.net/burp/releases?requestededition=professional&requestedplatform=Jar) and put it in the `jar` directory.
-
 |源|链接|
 | --- | --- |
 |mega.nz|[https://mega.nz/folder/Je8UXAhC#ft-xK84MQOfsQ1O3CFVbug/file/UHtEwL4A](https://mega.nz/folder/Je8UXAhC#ft-xK84MQOfsQ1O3CFVbug/file/UHtEwL4A)|
