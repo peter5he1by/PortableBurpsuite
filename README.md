@@ -2,11 +2,7 @@
 
 这是本人长期维护自用的便携式 BurpSuite 武器库，目前可能并不适合所有人，遇到问题请多多提 issue。
 
-> Here comes a cool pre-configured BurpSuite arsenal! May not everyone like it but if you encounter bugs, just let me know by pushing new issues. :)
-
 如果这个程序对您有帮助，请点个star让我知道，这将是我继续维护的动力。
-
-> If this package helps you, pls star. That would be helpful for further development.
 
 ## 已知BUG
 
@@ -25,8 +21,6 @@ Password: `peterzh4ng`
 
 > [Download the program package of BurpSuite](https://portswigger.net/burp/releases?requestededition=professional&requestedplatform=Jar) and put it in the `jar` directory.
 
-> Below is the release link for this project, just use the mega link.
-
 |源|链接|
 | --- | --- |
 |mega.nz|[https://mega.nz/folder/Je8UXAhC#ft-xK84MQOfsQ1O3CFVbug/file/UHtEwL4A](https://mega.nz/folder/Je8UXAhC#ft-xK84MQOfsQ1O3CFVbug/file/UHtEwL4A)|
@@ -35,8 +29,6 @@ Password: `peterzh4ng`
 ## 注意事项 Attention
 
 **请使用 `Start.exe` 启动**
-
-> Use the `Start.exe` to start.
 
 - **插件并未经过安全审计，请在不包含敏感信息的虚拟机使用。**
 - 仅支持 Windows；
